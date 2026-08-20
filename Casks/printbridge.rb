@@ -1,9 +1,9 @@
 cask "printbridge" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.5"
-  sha256 arm:   "631b26221be3de584794cdca631b0db97f0cbb7739449e767cc3ebc4b2dcfcd1",
-         intel: "a96539c80e14264e4d960860c6cc19d77e2b0558d95e7356d733ce56aded8881"
+  version "0.2.6"
+  sha256 arm:   "7371437a5510147fa4a066daa31539bc93c9da2e6b494a02049c6914e9d1b2f9",
+         intel: "5ac47399050ac7cf0e5cf84c8b5fdfe53c98c980a14a8f03e1efdcf16aa83a80"
 
   url "https://github.com/vergil-lai/print-bridge/releases/download/printbridge-v#{version}/PrintBridge_#{version}_#{arch}.dmg",
       verified: "github.com/vergil-lai/print-bridge/"
